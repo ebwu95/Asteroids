@@ -1,0 +1,17 @@
+- Check the Ship class for proper documentation
+- I used modular programming in the Asteroid, AsteroidSmall, AsteroidMedium, and AsteroidBig classes where Asteroid was the superclass 
+and AsteroidSmall, AsteroidMedium, and AsteroidBig were the subclasses
+- I used AGILE in the sprint interviews and the worklog, in which I continuosly laid out goals for each sprint and began to build the game out from scratch
+- I used JavaFX, and installation mostly depends on the IDE.
+For VSCode, install the Java extension and also install the JavaFX package from online
+Create a java projece 
+Open launch.json
+Paste the following lines of code to the bottom of launch.json
+{
+    "type": "java",
+    "name": "Launch Main",
+    "request": "launch",
+    "mainClass": "Main",
+    "projectName": "Culminating_5df26d72",
+    "vmArgs": "--module-path /Users/evanwu/Downloads/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml"
+}
